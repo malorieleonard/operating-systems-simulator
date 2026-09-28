@@ -102,8 +102,6 @@ This project provided hands-on experience with:
 
 - Python
 - PyCharm
-- Git
-- GitHub
 
 ## Project Structure
 
