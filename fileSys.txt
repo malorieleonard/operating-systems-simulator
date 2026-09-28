@@ -1,0 +1,227 @@
+# Start with a mount point, like /, /boot, /home, then add subdirectories
+# List the files below a directory name. Each regular file is:
+#      bytes <whitespace> name
+# Each subdirectroy is name followed by a slash
+
+
+/
+etc/
+
+
+/etc
+2319 bash.bashrc
+665 fstab
+1079 group
+92 host.conf
+4 hostid
+8 hostname
+222 hosts
+411 hosts.allow
+711 hosts.deny
+27 libao.conf
+191 libaudit.conf
+2822 passwd
+
+
+/boot
+262181 config-5.15.0-56-generic
+69817723 initrd.img
+182704 memtest86+.bin
+184380 memtest86+.elf
+184884 memtest86+_multiboot.bin
+6219014 System.map-5.15.0-56-generic
+11447712 vmlinuz
+
+
+
+/home
+cferner/
+behlerj/
+brownt/
+edwardsr/
+fostero/
+johnsonw/
+joynerc/
+mccowena/
+percew/
+smithh/
+whitev/
+wilsonl/
+
+/home/cferner
+1369 Comps.txt
+610 dice1.cpp
+61689259 suifhome.tar.gz
+classes/
+
+/home/cferner/classes
+csc342/
+
+/home/cferner/classes/csc342
+38194 221_csc342_grades.ods
+10859 CourseMaterials.odt
+23843 final.odt
+72814 Lab16_Solutions.pdf
+26500 Lab17_Solutions.pdf
+18316 schedule221.ods
+17777 test1.odt
+20729 test2.odt
+21114 test3.odt
+
+/home/behlerj
+18307 455data.sql
+3808 create_univ_database.sql
+3808 create_univ_database.sql.1
+8980 examples.desktop
+3421 finalprojTables.sql
+16991 logfile
+50043 logfile.sql
+9678 smallRelationsInsertFile.sql
+9678 smallRelationsInsertFile.sql.1
+6635 storedProc.sql
+
+
+/home/brownt
+3808 create_univ_database.sql
+8980 examples.desktop
+10150 logfile
+6051 mailDatabase
+12008 Maildblogfile.sql
+1396 MailDbSchema.sql
+9678 smallRelationsInsertFile.sql
+SQL/
+
+/home/brownt/SQL
+1396 MailDbSchema.sql
+1395 MailDbSchema.txt
+
+
+/home/edwardsr
+8980 examples.desktop
+699 Final_Exam_Part_2.txt
+320 pdo_config.php
+
+
+/home/fostero
+3808 create_univ_database.sql
+8980 examples.desktop
+3522 insertData.sql
+7029 logfile2.sql
+15221 logfile.sql
+1354 mailOrder2Queries.sql
+1748 mailorder_init.sql
+13504 part1
+2949 part1.f
+9184 part2
+1111 part2.f
+9678 smallRelationsInsertFile.sql
+7327 version2SqlPreql.sql
+
+
+
+/home/johnsonw
+8980 examples.desktop
+4087841 Final_Project.zip
+587 mysqli_config.php
+578 mysqli_connect.php
+
+
+
+/home/joynerc
+69 60.sh
+106 bash
+174 cal.txt
+8980 examples.desktop
+613 mysqli_connect.php
+288 reg_conn.php
+290 secure_conn.php
+65 tmp.txt
+613367 travel.sql
+
+
+
+/home/mccowena
+3808 create_univ_database.sql
+299 emp_super.sql
+299 emp_super.sql.1
+299 emp_super.sql.2
+8980 examples.desktop
+3206 insertData.sql
+15475 logfile.sql
+1313 mailorder.sql
+9678 smallRelationsInsertFile.sql
+
+
+
+
+/home/percew
+8448 a.out
+385 avg.c
+349 Circle.c
+226 count.c
+8980 examples.desktop
+305 hello.c
+556 posneg.c
+283 range.c
+182 temp.c
+461 ten.c
+901 three.c
+
+
+
+
+/home/smithh
+1544 binSoftLinks.txt
+170 cal.txt
+8980 examples.desktop
+1544 file1.txt
+596 Pro_Config.php
+1998 ratinghike.php
+69 sixty.sh
+
+
+
+
+
+/home/whitev
+8376 a.out
+378 assignment3.c
+458 average.c
+338 circle2.c
+389 circle.c
+346 counter.c
+743 exam1.c
+8980 examples.desktop
+502 final.c
+873 gallons.c
+246 homework.c
+306 integer.c
+812 math.c
+525 median.c
+428 quiz.c
+371 rates2.c
+326 rates.c
+428 temp.c
+284 temperature.c
+246 test.c
+227 three.c
+555 values.c
+
+
+
+
+/home/wilsonl
+2471 AirlineSchema.sql
+1901 assignment_queries.sql
+3310 create_airline_database.sql
+1505 create_mail_order_database.sql
+3808 create_univ_database.sql
+1005 insertAirlineFile.sql
+4379 insertData.sql
+11752 logfile
+9678 smallRelationsInsertFile.sql
+1552 testStatements.sql
+
+
+
+

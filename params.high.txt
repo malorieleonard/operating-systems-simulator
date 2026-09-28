@@ -1,0 +1,47 @@
+#####################################
+# Simulation Parameters
+SimulationTime:100000
+NumSnapshots:10
+Seed:3313970250
+# Logging is a bitwise AND or simple addition of the following:
+#     Simulator - 1, Hardware - 2, Interrupts - 4, Devices - 8, Files - 16,
+#     Memory - 32, Threads - 64, Tasks = 128
+#     For example: 193 turns on Simulator, Tasks, and Threads logging.
+#                  255 turns on all logging.
+Logging:31
+#####################################
+# Tasks and Threads
+MaxTasks:30
+MaxThreads:30
+# OpWeghts are relative number of occurrences of:
+# 'load', 'stor', 'compute', 'kill', 'exit', 'spawn', 'fork', 'open', 'close', 'read', 'write', 'delete'
+OpWeights:200,200,200,1,1,2,2,20,1,100,100,50
+PageLocality:90
+#####################################
+# Memory
+MaxFrames:32
+PageSize:4096
+NumAddressBits:16
+NumRegisters:16
+#####################################
+# Devices
+NumDevices:4
+NumBlockDevices:1
+# name, bus address, # blocks, transfer rate (Hz)
+BlockDevice0:SSD 0,8723,512,66.67
+NumDisks:3
+# name, bus address, # surfaces, tracks/surface, sectors/track, bytes/sector
+# head speed (tracks/msec), transfer rate (Hz)
+Disk0:Disk 0,8720,8,1024,12,1024,1.0,66.67
+Disk1:Disk 1,8721,4,1024,9,1024,1.0,66.67
+Disk2:Disk 2,8722,6,1024,16,1024,1.0,66.67
+#####################################
+# File System
+# Mountpoint info must come after the disk info and should be ordered
+# by directory structure (e.g. root should come first).
+# Directory name hyphen disk name
+MountPoints:/-Disk 1,/boot-Disk 0,/home-Disk 2,/swap-SSD 0
+FileSystemFile:fileSys.txt
+#####################################
+# Users
+Users:root,cferner,behlerj,brownt,edwardsr,fostero,johnsonw,joynerc,mccowena,percew,smithh,whitev,wilsonl,
